@@ -1,0 +1,147 @@
+.socialIcons{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.footerContainer{
+  background-color: rgba(0, 0, 0, 0.975);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.icon{
+  color: white;
+  font-size: 20px;
+  line-height: 1;
+}
+.fafacebook{
+  padding: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fafacebook:hover{
+  background-color: #0866FF;
+  color: #0866FF;
+  box-shadow: 0 0 7px currentColor;
+    transform: translateY(-5px);
+}
+.fatwitter{
+  padding: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+.fatwitter:hover{
+  background-color: #1DA1F2;
+  color: #1DA1F2;
+  box-shadow: 0 0 7px currentColor;
+    transform: translateY(-5px);
+}
+.fainstagram{
+  padding: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fainstagram:hover{
+  background-color: #FF0069;
+  color: #FF0069;
+  box-shadow: 0 0 7px currentColor;
+  transform: translateY(-5px);
+}
+.falinked{
+  padding: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+.falinked:hover{
+  background-color: #2BEDA7;
+  color: #2BEDA7;
+  box-shadow: 0 0 7px currentColor;
+    transform: translateY(-5px);
+}
+.fayoutube{
+  padding: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+.fayoutube:hover{
+  background-color: #FF0000;
+  color: #FF0000;
+  box-shadow: 0 0 7px currentColor;
+    transform: translateY(-5px);
+}
+.fatiktok{
+  padding: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+.fatiktok:hover{
+  background-color: black;
+  color: black;
+  box-shadow: 0 0 7px currentColor;
+    transform: translateY(-5px);
+}
+.fagithub{
+  padding: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+.fagithub:hover{
+  background-color: #181717;
+  color: #181717;
+  box-shadow: 0 0 7px currentColor;
+    transform: translateY(-5px);
+}
+.fapinterest{
+  padding: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+.fapinterest:hover{
+  background-color: #BD081C;
+  color: #BD081C;
+  box-shadow: 0 0 7px currentColor;
+    transform: translateY(-5px);
+}
+.brainText{
+  display: flex;
+  justify-content: center;
+}
+.brainText h1{
+  font-size: 5rem;
+  font-weight: bold;
+  color: #00f1c9;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+.FaLinks{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #888888;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+.FaLinks:hover{
+  color: white;
+  cursor: pointer;
+}
+.linkC{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}

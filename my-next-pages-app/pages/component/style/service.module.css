@@ -1,0 +1,6 @@
+.serviceCol{
+  display:  flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border-top: 5px solid #ff5e14;
+}

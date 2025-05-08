@@ -1,0 +1,117 @@
+.Fabars{
+  width: 40px; 
+  height: 50px; 
+  transition: all 0.4s ease;
+}
+.Fabars:hover{
+  fill: #00f1c9;
+  cursor: pointer;
+}
+.FaSearch{
+  width: 30px; 
+  height: 30px;
+  transition: all 0.4s ease;
+}
+.FaSearch:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.FaLinks{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 18px 12px;
+  font-size: 16px;
+}
+.FaLinks::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #00f1c9; 
+  transition: width 0.3s ease;
+}
+
+.FaLinks:hover::after {
+  width: 100%;
+}
+.NavLink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuItem {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.subMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0px 10px;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.menuItem:hover .subMenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.subMenu li {
+  list-style: none;
+  padding: 10px;
+}
+
+
+
+.subMenu li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.subMenu li a:hover {
+  background-color: #f2f2f2;
+ color: #00f1c9;
+}
+
+
+.offcanvasTitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brandText {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+  color: #00f1c9;
+}
+.offcanvasC{
+  background-color: black;
+}
+.offcanvasHeader{
+  padding: 10px;
+}
+.offcanvasHeader :global(.btn-close) {
+  width: 2rem;
+  height: 2rem;
+  background-size: 1.5rem;
+}
